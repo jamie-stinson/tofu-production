@@ -1,3 +1,5 @@
+environment = "production"
+
 talos = {
   cluster = {
     name               = "myCluster"
@@ -23,4 +25,8 @@ talos = {
       }
     }
   }
+}
+
+argocd = {
+  namespace = "argocd"
 }
